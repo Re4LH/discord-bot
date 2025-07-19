@@ -1,0 +1,468 @@
+2025-07-19 03:18:54,535 - __main__ - ERROR - DISCORD_BOT_TOKEN not found in environment variables!
+2025-07-19 03:18:54,535 - __main__ - ERROR - Please set your bot token in the .env file or environment.
+2025-07-19 03:24:02,724 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 03:24:02,724 - bot.config - INFO - Loaded 0 server configurations
+2025-07-19 03:24:02,725 - discord.client - INFO - logging in using static token
+2025-07-19 03:24:03,236 - __main__ - INFO - Setting up bot...
+2025-07-19 03:24:03,237 - bot.commands - INFO - Commands set up successfully
+2025-07-19 03:24:03,237 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 03:24:03,238 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 03:24:03,238 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 03:24:03,239 - __main__ - INFO - Bot setup complete!
+2025-07-19 03:24:03,500 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f378617c7e879be2aa9cc228127cc5fd).
+2025-07-19 03:24:05,503 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 03:24:05,503 - __main__ - INFO - Bot is in 0 guilds
+2025-07-19 03:26:57,903 - __main__ - INFO - Joined new guild: The Saints Gaming (ID: 273132195521101824)
+2025-07-19 03:26:57,904 - bot.config - INFO - Initialized configuration for guild 273132195521101824
+2025-07-19 03:29:55,986 - __main__ - ERROR - Unhandled command error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-07-19 03:29:56,193 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/main.py", line 146, in on_command_error
+    await ctx.send(embed=embed)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/context.py", line 1043, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/abc.py", line 1644, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 756, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-07-19 03:36:51,314 - __main__ - ERROR - Unhandled command error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-07-19 03:36:51,480 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/main.py", line 146, in on_command_error
+    await ctx.send(embed=embed)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/context.py", line 1043, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/abc.py", line 1644, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 756, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-07-19 03:37:48,138 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 03:37:48,138 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 03:37:48,139 - discord.client - INFO - logging in using static token
+2025-07-19 03:37:48,523 - __main__ - INFO - Setting up bot...
+2025-07-19 03:37:48,524 - bot.commands - INFO - Commands set up successfully
+2025-07-19 03:37:48,524 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 03:37:48,525 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 03:37:48,525 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 03:37:48,525 - __main__ - INFO - Bot setup complete!
+2025-07-19 03:37:48,828 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: bbc961a5db90f928c7ea028d7ec0229c).
+2025-07-19 03:37:50,836 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 03:37:50,836 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 03:39:27,443 - __main__ - ERROR - Unhandled command error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-07-19 03:39:27,628 - __main__ - ERROR - Bot cannot send messages in channel 🟡announce-sign - missing permissions
+2025-07-19 03:41:32,450 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 03:41:32,451 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 03:41:32,452 - discord.client - INFO - logging in using static token
+2025-07-19 03:41:33,112 - __main__ - INFO - Setting up bot...
+2025-07-19 03:41:33,113 - bot.commands - INFO - Commands set up successfully
+2025-07-19 03:41:33,113 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 03:41:33,114 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 03:41:33,114 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 03:41:33,114 - __main__ - INFO - Bot setup complete!
+2025-07-19 03:41:33,418 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c4c5635301ddb3f8506a1432ea380104).
+2025-07-19 03:41:35,426 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 03:41:35,426 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 03:43:32,971 - __main__ - ERROR - Unhandled command error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-07-19 03:43:33,132 - __main__ - ERROR - Bot cannot send messages in channel 🟡announce-sign - missing permissions
+2025-07-19 03:43:40,001 - __main__ - ERROR - Unhandled command error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-07-19 03:43:40,174 - __main__ - ERROR - Bot cannot send messages in channel 🟡announce-sign - missing permissions
+2025-07-19 03:44:15,729 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 03:44:15,729 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 03:44:15,730 - discord.client - INFO - logging in using static token
+2025-07-19 03:44:16,358 - __main__ - INFO - Setting up bot...
+2025-07-19 03:44:16,360 - bot.commands - INFO - Commands set up successfully
+2025-07-19 03:44:16,360 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 03:44:16,360 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 03:44:16,361 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 03:44:16,361 - __main__ - INFO - Bot setup complete!
+2025-07-19 03:44:16,757 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6c61993203adc782a5f2a8515e953012).
+2025-07-19 03:44:18,768 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 03:44:18,768 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 03:44:46,472 - __main__ - ERROR - Unhandled command error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-07-19 03:44:46,648 - __main__ - ERROR - Bot cannot send messages in channel 🟡announce-sign - missing permissions
+2025-07-19 03:46:46,634 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 03:46:46,634 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 03:46:46,635 - discord.client - INFO - logging in using static token
+2025-07-19 03:46:47,340 - __main__ - INFO - Setting up bot...
+2025-07-19 03:46:47,341 - bot.commands - INFO - Commands set up successfully
+2025-07-19 03:46:47,341 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 03:46:47,342 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 03:46:47,342 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 03:46:47,342 - __main__ - INFO - Bot setup complete!
+2025-07-19 03:46:48,287 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cd5a4dad79019ab0ae759898ea7844ca).
+2025-07-19 03:46:50,298 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 03:46:50,298 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 03:53:23,526 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 03:53:23,527 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 03:53:23,527 - discord.client - INFO - logging in using static token
+2025-07-19 03:53:23,952 - __main__ - INFO - Setting up bot...
+2025-07-19 03:53:23,953 - bot.commands - INFO - Commands set up successfully
+2025-07-19 03:53:23,953 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 03:53:23,954 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 03:53:23,954 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 03:53:23,955 - __main__ - INFO - Bot setup complete!
+2025-07-19 03:53:24,326 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b3faf47832ec5ebacc0b8e049ef8f32e).
+2025-07-19 03:53:26,356 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 03:53:26,356 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 03:57:11,099 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 03:57:11,099 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 03:57:11,104 - discord.client - INFO - logging in using static token
+2025-07-19 03:57:11,580 - __main__ - INFO - Setting up bot...
+2025-07-19 03:57:11,581 - bot.commands - INFO - Commands set up successfully
+2025-07-19 03:57:11,582 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 03:57:11,582 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 03:57:11,583 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 03:57:11,583 - __main__ - INFO - Bot setup complete!
+2025-07-19 03:57:11,906 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6dd82fcacfdd949c9aa0054257efb286).
+2025-07-19 03:57:13,912 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 03:57:13,912 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 04:02:07,178 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 04:02:07,179 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 04:02:07,180 - discord.client - INFO - logging in using static token
+2025-07-19 04:02:07,596 - __main__ - INFO - Setting up bot...
+2025-07-19 04:02:07,598 - bot.commands - INFO - Commands set up successfully
+2025-07-19 04:02:07,598 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 04:02:07,598 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 04:02:07,598 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 04:02:07,598 - __main__ - INFO - Bot setup complete!
+2025-07-19 04:02:08,092 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f8bb74417eb89927c6764a06709fc0ca).
+2025-07-19 04:02:10,100 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 04:02:10,100 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 04:07:31,402 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 04:07:31,402 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 04:07:31,403 - discord.client - INFO - logging in using static token
+2025-07-19 04:07:31,851 - __main__ - INFO - Setting up bot...
+2025-07-19 04:07:31,853 - bot.commands - INFO - Commands set up successfully
+2025-07-19 04:07:31,853 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 04:07:31,855 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 04:07:31,855 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 04:07:31,855 - __main__ - INFO - Bot setup complete!
+2025-07-19 04:07:32,164 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 69e0c76812fedd6399e7b2364fda5e22).
+2025-07-19 04:07:34,173 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 04:07:34,173 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 04:17:47,712 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 04:17:47,712 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 04:17:47,713 - discord.client - INFO - logging in using static token
+2025-07-19 04:17:48,257 - __main__ - INFO - Setting up bot...
+2025-07-19 04:17:48,258 - bot.commands - INFO - Commands set up successfully
+2025-07-19 04:17:48,259 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 04:17:48,261 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 04:17:48,262 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 04:17:48,262 - __main__ - INFO - Bot setup complete!
+2025-07-19 04:17:48,775 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 75eee219739136f73b6790dd0db02609).
+2025-07-19 04:17:50,785 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 04:17:50,785 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 04:24:31,471 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 04:24:31,472 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 04:24:31,472 - discord.client - INFO - logging in using static token
+2025-07-19 04:24:31,909 - __main__ - INFO - Setting up bot...
+2025-07-19 04:24:31,910 - bot.commands - INFO - Commands set up successfully
+2025-07-19 04:24:31,910 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 04:24:31,911 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 04:24:31,911 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 04:24:31,911 - __main__ - INFO - Bot setup complete!
+2025-07-19 04:24:32,165 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 490a9b5ab26902d46d06bd406e4550b4).
+2025-07-19 04:24:34,175 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 04:24:34,175 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 04:26:52,339 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 04:26:52,339 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 04:26:52,340 - discord.client - INFO - logging in using static token
+2025-07-19 04:26:52,778 - __main__ - INFO - Setting up bot...
+2025-07-19 04:26:52,780 - bot.commands - INFO - Commands set up successfully
+2025-07-19 04:26:52,780 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 04:26:52,781 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 04:26:52,781 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 04:26:52,781 - __main__ - INFO - Bot setup complete!
+2025-07-19 04:26:53,061 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6ade925dbdf39cc51ff0e842f85c5fe6).
+2025-07-19 04:26:55,078 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 04:26:55,078 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 04:29:55,490 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 04:29:55,490 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 04:29:55,491 - discord.client - INFO - logging in using static token
+2025-07-19 04:29:55,910 - __main__ - INFO - Setting up bot...
+2025-07-19 04:29:55,911 - bot.commands - INFO - Commands set up successfully
+2025-07-19 04:29:55,911 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 04:29:55,912 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 04:29:55,912 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 04:29:55,912 - __main__ - INFO - Bot setup complete!
+2025-07-19 04:29:56,246 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e3eee932c8c33ce623e2dd5816472e90).
+2025-07-19 04:29:58,261 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 04:29:58,261 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 04:57:00,080 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 04:57:00,080 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 08:00 UTC
+2025-07-19 04:57:48,460 - __main__ - ERROR - Unhandled command error: hour is a required argument that is missing.
+2025-07-19 04:57:52,787 - __main__ - ERROR - Unhandled command error: hour is a required argument that is missing.
+2025-07-19 04:59:12,135 - apscheduler.scheduler - INFO - Removed job daily_poll_273132195521101824
+2025-07-19 04:59:12,135 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 04:59:12,135 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:00:00,018 - apscheduler.executors.default - INFO - Running job "Daily Poll for Guild 273132195521101824 (trigger: cron[hour='5', minute='0'], next run at: 2025-07-20 05:00:00 UTC)" (scheduled at 2025-07-19 05:00:00+00:00)
+2025-07-19 05:00:04,124 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:00:04,124 - bot.scheduler - ERROR - Failed to post daily poll for guild 273132195521101824: 'ConfigManager' object has no attribute 'save_config'
+2025-07-19 05:00:04,124 - apscheduler.executors.default - INFO - Job "Daily Poll for Guild 273132195521101824 (trigger: cron[hour='5', minute='0'], next run at: 2025-07-20 05:00:00 UTC)" executed successfully
+2025-07-19 05:03:29,054 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:03:29,055 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:03:29,056 - discord.client - INFO - logging in using static token
+2025-07-19 05:03:29,530 - __main__ - INFO - Setting up bot...
+2025-07-19 05:03:29,531 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:03:29,531 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:03:29,531 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:03:29,531 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:03:29,535 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:03:29,535 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:03:29,535 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:03:29,535 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:03:29,845 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e10a6ad4fa4a424510a4aca7303278e0).
+2025-07-19 05:03:31,857 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:03:31,857 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:08:17,640 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:08:17,640 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:08:17,641 - discord.client - INFO - logging in using static token
+2025-07-19 05:08:18,087 - __main__ - INFO - Setting up bot...
+2025-07-19 05:08:18,088 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:08:18,088 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:08:18,089 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:08:18,089 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:08:18,090 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:08:18,090 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:08:18,090 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:08:18,090 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:08:18,392 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4bc052de1a88f2f1a25c3f8f750b34ee).
+2025-07-19 05:08:20,400 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:08:20,400 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:18:09,953 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:18:09,954 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:18:09,954 - discord.client - INFO - logging in using static token
+2025-07-19 05:18:10,515 - __main__ - INFO - Setting up bot...
+2025-07-19 05:18:10,516 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:18:10,516 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:18:10,520 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:18:10,521 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:18:10,524 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:18:10,524 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:18:10,524 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:18:10,524 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:18:10,996 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a394019aec75fefa6c887e6d4980227e).
+2025-07-19 05:18:13,006 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:18:13,006 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:20:57,152 - apscheduler.scheduler - INFO - Removed job daily_poll_273132195521101824
+2025-07-19 05:20:57,154 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:20:57,154 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:22:39,033 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:22:39,033 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:22:39,034 - discord.client - INFO - logging in using static token
+2025-07-19 05:22:39,585 - __main__ - INFO - Setting up bot...
+2025-07-19 05:22:39,586 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:22:39,586 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:22:39,586 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:22:39,586 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:22:39,587 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:22:39,587 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:22:39,587 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:22:39,587 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:22:39,919 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d821b32ebe8f493054be4159a3130ee8).
+2025-07-19 05:22:41,923 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:22:41,923 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:22:45,601 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:22:45,601 - bot.scheduler - ERROR - Failed to post daily poll for guild 273132195521101824: 'ConfigManager' object has no attribute '_save_to_file'
+2025-07-19 05:22:45,601 - __main__ - INFO - Posted real daily poll with full live tracking on startup
+2025-07-19 05:32:01,984 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:32:01,985 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:32:01,985 - discord.client - INFO - logging in using static token
+2025-07-19 05:32:02,511 - __main__ - INFO - Setting up bot...
+2025-07-19 05:32:02,512 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:32:02,512 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:32:02,512 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:32:02,512 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:32:02,513 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:32:02,513 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:32:02,513 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:32:02,513 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:32:02,860 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4eb51b571f3ebfe6042c9ff8def24f3e).
+2025-07-19 05:32:04,867 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:32:04,867 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:51:11,514 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:51:11,516 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:51:11,517 - discord.client - INFO - logging in using static token
+2025-07-19 05:51:12,169 - __main__ - INFO - Setting up bot...
+2025-07-19 05:51:12,170 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:51:12,171 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:51:12,171 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:51:12,171 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:51:12,178 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:51:12,178 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:51:12,178 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:51:12,178 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:51:12,473 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b9e2da1a2bf9f340ce952b4a77fb2161).
+2025-07-19 05:51:14,514 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:51:14,514 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:51:54,235 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:51:54,235 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:51:54,236 - discord.client - INFO - logging in using static token
+2025-07-19 05:51:54,778 - __main__ - INFO - Setting up bot...
+2025-07-19 05:51:54,779 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:51:54,780 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:51:54,780 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:51:54,780 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:51:54,781 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:51:54,781 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:51:54,781 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:51:54,781 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:51:55,204 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1b8ca83773f219a7b92434c9d39425ae).
+2025-07-19 05:51:58,551 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:51:58,552 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:51:58,552 - discord.client - INFO - logging in using static token
+2025-07-19 05:51:58,979 - __main__ - INFO - Setting up bot...
+2025-07-19 05:51:58,981 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:51:58,981 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:51:58,981 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:51:58,981 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:51:58,982 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:51:58,983 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:51:58,983 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:51:58,983 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:51:59,271 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c9724c7c727575c015b4f6584fb1772a).
+2025-07-19 05:52:01,287 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:52:01,287 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:52:20,879 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:52:20,880 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:52:20,880 - discord.client - INFO - logging in using static token
+2025-07-19 05:52:21,412 - __main__ - INFO - Setting up bot...
+2025-07-19 05:52:21,413 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:52:21,414 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:52:21,414 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:52:21,414 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:52:21,415 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:52:21,415 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:52:21,415 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:52:21,415 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:52:21,759 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1dbfe1621dcd6dbb44e5e3849fd1b7aa).
+2025-07-19 05:52:23,767 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:52:23,767 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:52:27,314 - bot.scheduler - ERROR - Failed to post daily poll for guild 273132195521101824: 'PollScheduler' object has no attribute 'config_manager'
+2025-07-19 05:52:27,314 - __main__ - INFO - Posted daily poll with Bulgarian formatting and live tracking
+2025-07-19 05:55:59,194 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:55:59,194 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:55:59,195 - discord.client - INFO - logging in using static token
+2025-07-19 05:55:59,708 - __main__ - INFO - Setting up bot...
+2025-07-19 05:55:59,710 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:55:59,710 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:55:59,710 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:55:59,711 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:55:59,712 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:55:59,713 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:55:59,713 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:55:59,713 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:56:00,085 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 79c29fefb9f5db7594c6e4c4ce05a164).
+2025-07-19 05:56:02,094 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:56:02,096 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:56:06,416 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 05:56:06,417 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 05:56:06,417 - discord.client - INFO - logging in using static token
+2025-07-19 05:56:06,824 - __main__ - INFO - Setting up bot...
+2025-07-19 05:56:06,826 - bot.commands - INFO - Commands set up successfully
+2025-07-19 05:56:06,826 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 05:56:06,827 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 05:56:06,827 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 05:56:06,828 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 05:56:06,828 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 05:56:06,828 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 05:56:06,828 - __main__ - INFO - Bot setup complete!
+2025-07-19 05:56:07,132 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: af59459d8ab046f8e8704ae8b19cd00d).
+2025-07-19 05:56:09,141 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 05:56:09,141 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 05:56:12,910 - bot.scheduler - INFO - Posted daily poll in guild 273132195521101824, channel 1334951938466512966
+2025-07-19 05:56:12,910 - __main__ - INFO - Posted fixed daily poll with working live tracking
+2025-07-19 07:46:50,737 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 07:46:50,746 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 07:46:50,748 - discord.client - INFO - logging in using static token
+2025-07-19 07:46:51,310 - __main__ - INFO - Setting up bot...
+2025-07-19 07:46:51,314 - bot.commands - INFO - Commands set up successfully
+2025-07-19 07:46:51,314 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 07:46:51,315 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 07:46:51,315 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 07:46:51,318 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 07:46:51,318 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 07:46:51,319 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 07:46:51,319 - __main__ - INFO - Bot setup complete!
+2025-07-19 07:46:51,638 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 98ede068768135988e1edb4fd74ded7a).
+2025-07-19 07:46:53,657 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 07:46:53,657 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 08:40:31,931 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 08:40:31,932 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 08:40:33,839 - database.database_manager - INFO - Database setup completed successfully
+2025-07-19 08:40:33,847 - database.database_manager - INFO - Loaded JSON data from config/servers.json
+2025-07-19 08:40:34,042 - database.database_manager - INFO - Migrated server 273132195521101824 to database
+2025-07-19 08:40:34,161 - database.database_manager - INFO - JSON migration completed successfully
+2025-07-19 08:40:34,162 - discord.client - INFO - logging in using static token
+2025-07-19 08:40:34,571 - __main__ - INFO - Setting up bot...
+2025-07-19 08:40:34,572 - bot.commands - INFO - Commands set up successfully
+2025-07-19 08:40:34,572 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 08:40:34,572 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 08:40:34,572 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 08:40:34,576 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 08:40:34,576 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 08:40:34,576 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 08:40:34,576 - __main__ - INFO - Bot setup complete!
+2025-07-19 08:40:34,979 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 306a63ea1f79f8596f9326e109a2c884).
+2025-07-19 08:40:36,992 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 08:40:36,992 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 08:41:32,627 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 08:41:32,628 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 08:41:33,870 - database.database_manager - INFO - Database setup completed successfully
+2025-07-19 08:41:33,873 - database.database_manager - INFO - Loaded JSON data from config/servers.json
+2025-07-19 08:41:34,001 - database.database_manager - INFO - Server 273132195521101824 already exists in database, skipping
+2025-07-19 08:41:34,059 - database.database_manager - INFO - JSON migration completed successfully
+2025-07-19 08:41:34,059 - discord.client - INFO - logging in using static token
+2025-07-19 08:41:34,546 - __main__ - INFO - Setting up bot...
+2025-07-19 08:41:34,547 - bot.commands - INFO - Commands set up successfully
+2025-07-19 08:41:34,547 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 08:41:34,548 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 08:41:34,548 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 08:41:34,548 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 08:41:34,549 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 08:41:34,549 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 08:41:34,549 - __main__ - INFO - Bot setup complete!
+2025-07-19 08:41:34,869 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b7a4ceaf7cf5bfb62c9f155d2524eee3).
+2025-07-19 08:41:36,876 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 08:41:36,876 - __main__ - INFO - Bot is in 1 guilds
+2025-07-19 08:41:40,687 - database.database_manager - INFO - Created poll 1396049327457173564 for server 273132195521101824
+2025-07-19 08:41:40,859 - bot.scheduler - INFO - Posted daily poll in guild 273132195521101824, channel 1334951938466512966
+2025-07-19 08:41:40,859 - bot.scheduler - INFO - Created poll record with ID 1 in database
+2025-07-19 08:41:40,859 - __main__ - INFO - Posted test poll with database integration
+2025-07-19 09:04:58,010 - database.database_manager - ERROR - Failed to remove vote: (psycopg2.OperationalError) SSL connection has been closed unexpectedly
+
+[SQL: SELECT polls.id AS polls_id, polls.server_config_id AS polls_server_config_id, polls.guild_id AS polls_guild_id, polls.channel_id AS polls_channel_id, polls.message_id AS polls_message_id, polls.poll_date AS polls_poll_date, polls.is_test AS polls_is_test, polls.created_at AS polls_created_at 
+FROM polls 
+WHERE polls.message_id = %(message_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'message_id_1': '1396049327457173564', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-19 13:50:50,525 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-19 13:50:50,526 - bot.config - INFO - Loaded 1 server configurations
+2025-07-19 13:50:51,879 - database.database_manager - INFO - Database setup completed successfully
+2025-07-19 13:50:51,879 - database.database_manager - INFO - Loaded JSON data from config/servers.json
+2025-07-19 13:50:52,012 - database.database_manager - INFO - Server 273132195521101824 already exists in database, skipping
+2025-07-19 13:50:52,070 - database.database_manager - INFO - JSON migration completed successfully
+2025-07-19 13:50:52,070 - discord.client - INFO - logging in using static token
+2025-07-19 13:50:52,597 - __main__ - INFO - Setting up bot...
+2025-07-19 13:50:52,598 - bot.commands - INFO - Commands set up successfully
+2025-07-19 13:50:52,598 - bot.scheduler - INFO - Starting poll scheduler...
+2025-07-19 13:50:52,599 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-19 13:50:52,599 - bot.scheduler - INFO - Scheduled daily poll for guild 273132195521101824 at 05:00 UTC
+2025-07-19 13:50:52,600 - apscheduler.scheduler - INFO - Added job "Daily Poll for Guild 273132195521101824" to job store "default"
+2025-07-19 13:50:52,600 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-19 13:50:52,600 - bot.scheduler - INFO - Poll scheduler started successfully
+2025-07-19 13:50:52,600 - __main__ - INFO - Bot setup complete!
+2025-07-19 13:50:53,135 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 805b159d41f57c9e4aeff94bda0c69a6).
+2025-07-19 13:50:55,147 - __main__ - INFO - Saints-Helper#7614 has connected to Discord!
+2025-07-19 13:50:55,148 - __main__ - INFO - Bot is in 1 guilds
